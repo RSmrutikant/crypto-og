@@ -113,12 +113,12 @@ const StyledBurger = styled.button`
   }
 `;
 
-const Menu = ({ open }) => {
+const Menu = ({ open, setOpen }) => {
   return (
     <StyledMenuWrapper open={open}>
       <StyledMenu open={open}>
-        <a href="/">
-          About us{" "}
+        <a href="#about-us" onClick={() => setOpen(!open)}>
+          About us{""}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
               d="M30 15v13.59L1.71.29.29 1.71 28.59 30H16v2h15a1 1 0 0 0 1-1V15z"
@@ -126,7 +126,7 @@ const Menu = ({ open }) => {
             />
           </svg>
         </a>
-        <a href="/">
+        <a href="#curved-text" onClick={() => setOpen(!open)}>
           Pricing{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
@@ -135,7 +135,7 @@ const Menu = ({ open }) => {
             />
           </svg>
         </a>
-        <a href="/">
+        <a href="#feature" onClick={() => setOpen(!open)}>
           Features{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
@@ -144,8 +144,8 @@ const Menu = ({ open }) => {
             />
           </svg>
         </a>
-        <a href="/">
-          Utilities{" "}
+        <a href="#roadmap" onClick={() => setOpen(!open)}>
+          RoadMap{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
               d="M30 15v13.59L1.71.29.29 1.71 28.59 30H16v2h15a1 1 0 0 0 1-1V15z"
@@ -153,7 +153,7 @@ const Menu = ({ open }) => {
             />
           </svg>
         </a>
-        <a href="/">
+        <a href="#tokenomics" onClick={() => setOpen(!open)}>
           Tokenomics{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
@@ -162,7 +162,7 @@ const Menu = ({ open }) => {
             />
           </svg>
         </a>
-        <a href="/">
+        <a href="#slideshow" onClick={() => setOpen(!open)}>
           Contact{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path

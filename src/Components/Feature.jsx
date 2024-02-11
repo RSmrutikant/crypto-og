@@ -38,7 +38,7 @@ const Feature = () => {
       }, []);     
     
   return (
-    <div className='section-2 feature-section'>
+    <div className='section-2 feature-section' id="feature">
         <Container className='feature-card-wrapper' style={{position: "relative", zIndex: 1}}>
             <Row>
             <Col xs={12} md={6} xl={12} style={{display: "flex", justifyContent:"center"}}>

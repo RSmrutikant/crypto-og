@@ -74,7 +74,7 @@ const Curvedtext = () => {
     }});
 
   return (
-    <div className="curved-text-wrapper">
+    <div className="curved-text-wrapper" id="curved-text">
       <svg height="100%" width="100%" className="svg1">
         <path id="curve" fill="#000" d="" />
         <text fontFamily="Playfair Display">
