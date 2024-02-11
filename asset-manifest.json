@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/crypto-og/static/css/main.8c4d0862.css",
+    "main.js": "/crypto-og/static/js/main.51a5c8cf.js",
+    "static/js/592.7f410269.chunk.js": "/crypto-og/static/js/592.7f410269.chunk.js",
+    "static/media/Banner-vid.mp4": "/crypto-og/static/media/Banner-vid.1b64c49121e9ddcd61ad.mp4",
+    "static/media/Image-6.png": "/crypto-og/static/media/Image-6.cc926cf7d721132e4cff.png",
+    "static/media/Image-3.png": "/crypto-og/static/media/Image-3.3169648856a10a919efa.png",
+    "static/media/Image-4.png": "/crypto-og/static/media/Image-4.98070b38b70433bdca88.png",
+    "static/media/Image-5.png": "/crypto-og/static/media/Image-5.9c26d35836beee55fbe6.png",
+    "static/media/Image-7.png": "/crypto-og/static/media/Image-7.c9a31a614e8238dd4fbb.png",
+    "static/media/Image-1.png": "/crypto-og/static/media/Image-1.30db8256fd60898d76a0.png",
+    "static/media/Image-8.png": "/crypto-og/static/media/Image-8.04b0cf98fbb5b647c301.png",
+    "static/media/Image-2.png": "/crypto-og/static/media/Image-2.e412d1e7b31675c42ff5.png",
+    "static/media/feature-bg.jpg": "/crypto-og/static/media/feature-bg.bc67f3bc576dc2377f25.jpg",
+    "static/media/setting.png": "/crypto-og/static/media/setting.3f480f8b2f789e29a506.png",
+    "static/media/logo.png": "/crypto-og/static/media/logo.c49219c00f258cf78f9a.png",
+    "static/media/feature-star.png": "/crypto-og/static/media/feature-star.7b8e5f64ac57cdcdb783.png",
+    "index.html": "/crypto-og/index.html",
+    "main.8c4d0862.css.map": "/crypto-og/static/css/main.8c4d0862.css.map",
+    "main.51a5c8cf.js.map": "/crypto-og/static/js/main.51a5c8cf.js.map",
+    "592.7f410269.chunk.js.map": "/crypto-og/static/js/592.7f410269.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c4d0862.css",
+    "static/js/main.51a5c8cf.js"
+  ]
+}
