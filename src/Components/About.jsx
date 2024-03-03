@@ -49,7 +49,7 @@ export const AboutUs = () => {
         t1.fromTo(
           ".about-section-2",
           {
-            y: 400,
+            y: 600,
             opacity: 0,
           },
           {
@@ -109,7 +109,7 @@ export const AboutUs = () => {
         t1.fromTo(
           ".about-section-2",
           {
-            y: 400,
+            y: 600,
             opacity: 0,
           },
           {
@@ -152,52 +152,84 @@ export const AboutUs = () => {
       <Container>
         <Row style={{ marginBottom: "100px" }} className="about-section-1">
           <Col
-            xl={{ span: 5, order: 1 }}
-            md={{ span: 12, order: "last" }}
-            xs={{ span: 12, order: "last" }}
+            xl={{ span: 3, order: 1 }}
+            md={{ span: 12, order: 1 }}
+            xs={{ span: 12, order: 1 }}
           >
             <div className="about-content-img">
               <div>
                 <img
-                  style={{
-                    width: "100%",
-                    objectFit: "cover",
-                    border: "2px solid #fff",
-                    borderRadius: "20px",
-                    backgroundColor: "#ddd",
-                  }}
+                  className="img-one"
                   src={Images.Image1}
                   alt="user"
                 ></img>
               </div>
             </div>
+            <div className="about-content text-one">
+              <h3 >Special  <span style={{color:"#ac010a"}}>Mafia's</span> Skills Test for you</h3>
+              <h5 style={{ lineHeight: 1.5 }}>
+                "CryptoOGs: The Bitcoin Revolution"
+                In the early 21st century, Satoshi Nakamoto and a squad of
+                crypto OGs birthed Bitcoin. Armed
+              </h5>
+            </div>
           </Col>
           <Col
-            xl={{ span: 7, order: 2 }}
-            md={{ span: 12, order: "first" }}
-            xs={{ span: 12, order: "first" }}
-            style={{
-              display: "flex",
-              alignItems: "center",
-              textAlign: "justify",
-            }}
+            xl={{ span: 6, order: 2 }}
+            md={{ span: 12, order: 2 }}
+            xs={{ span: 12, order: 2 }}
           >
-            <div className="about-content">
-              <h3>About Us</h3>
+            <Row>
+              <Col 
+              xl={{ span: 12, order: 1 }}
+              md={{ span: 12, order: 2 }}
+              xs={{ span: 12, order: 2 }}>
+              <div className="about-content text-two">
+              <h3>Challenge A <span style={{color:"#ac010a"}}>Battle</span> To Yourself</h3>
               <h5 style={{ lineHeight: 1.5 }}>
-                &nbsp; &nbsp; &nbsp; &nbsp; "CryptoOGs: The Bitcoin Revolution"
+                "CryptoOGs: The Bitcoin Revolution"
                 In the early 21st century, Satoshi Nakamoto and a squad of
-                crypto OGs birthed Bitcoin. Armed with cryptographic genius and
-                a vision for financial freedom, they crafted the world's first
-                decentralized currency. Their rebellion against traditional
-                finance ignited a global movement, capturing the attention of
-                governments, mega-corporations, and the masses. Today, Bitcoin
-                stands tall as a symbol of defiance, adopted by the world. The
-                OGs' legacy lives on, shaping a decentralized future. The
-                Bitcoin revolution is more than a currency; it's a saga written
-                by the CryptoOGs, inspiring a new era of financial sovereignty.
-                Get ready - the crypto wave is unstoppable! <br />
-                🚀 #CryptoOGs #BitcoinRevolution
+                crypto OGs birthed Bitcoin. 
+              </h5>
+            </div>
+              </Col>
+              <Col
+              xl={{ span: 12, order: 2 }}
+            md={{ span: 12, order: 1 }}
+            xs={{ span: 12, order: 1 }}>
+                
+            <div className="about-content-img">
+              <div>
+                <img
+                  className="img-two"
+                  src={Images.Image4}
+                  alt="user"
+                ></img>
+              </div>
+            </div>
+              </Col>
+            </Row>
+          </Col>
+          <Col
+            xl={{ span: 3, order: 2 }}
+            md={{ span: 12, order: 3 }}
+            xs={{ span: 12, order: 3 }}
+          >
+           <div className="about-content-img">
+              <div>
+                <img
+                  className="img-three"
+                  src={Images.Image2}
+                  alt="user"
+                ></img>
+              </div>
+            </div>
+            <div className="about-content text-three">
+              <h3>Every <span style={{color:"#ac010a"}}>Mystrey</span> Is A New Adventure!</h3>
+              <h5 style={{ lineHeight: 1.5 }}>
+                "CryptoOGs: The Bitcoin Revolution"
+                In the early 21st century, Satoshi Nakamoto and a squad of
+                crypto OGs birthed Bitcoin. 
               </h5>
             </div>
           </Col>
@@ -205,19 +237,21 @@ export const AboutUs = () => {
         <Row className="about-section-2">
           <Col
             xl={{ span: 7, order: 1 }}
-            md={{ span: 12, order: "first" }}
-            xs={{ span: 12, order: "first" }}
+            md={{ span: 12, order: 2 }}
+            xs={{ span: 12, order: 2 }}
             style={{ display: "flex", alignItems: "center" }}
           >
             <div className="about-content">
-              <h3>Why we?</h3>
+              <h3>Guess...<br/>Who is the <span className="red-text">Mafia</span>?</h3>
               <h5  style={{ lineHeight: 1.5 }}>
-                &nbsp;&nbsp;&nbsp;&nbsp; The Identity Theft Resource Center says
+                The Identity Theft Resource Center says
                 that digital wallets rely on proven security measures such as
                 two-factor authentication and PINs that can only be used once.
                 Wallets also use encryption technology to scramble the financial
                 and password information of users.
               </h5>
+              <Row className="d-flex flex-content">
+              <Col>
               <ul style={{fontSize: "18px"}}>
                 <li>Buy crypto with card</li>
                 <li>
@@ -227,24 +261,25 @@ export const AboutUs = () => {
                 <li>Easy Interface</li>
                 <li>Private and secure</li>
               </ul>
+              </Col>
+              <Col><ul className="right-list">
+                <li>- Guess</li>
+                <li style={{color: "#ac010a", fontWeight: 600}}>- Convince</li>
+                <li>- Defend</li>
+                <li>- Win</li>
+              </ul></Col>
+              </Row>
             </div>
           </Col>
           <Col
             xl={{ span: 5, order: 2 }}
-            md={{ span: 12, order: "last" }}
-            xs={{ span: 12, order: "last" }}
+            md={{ span: 12, order: 1 }}
+            xs={{ span: 12, order: 1 }}
           >
             <div className="about-content-img2">
               <div>
                 <img
-                  style={{
-                    width: "100%",
-                    objectFit: "cover",
-                    border: "2px solid #fff",
-                    borderRadius: "20px",
-                    backgroundColor: "#ddd",
-                  }}
-                  src={Images.Image2}
+                  src={Images.About2}
                   alt="user"
                 ></img>
               </div>

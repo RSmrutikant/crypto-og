@@ -10,7 +10,7 @@ function RoadMap() {
       scrollTrigger: {
         trigger: ".content-anime",
         start: "top 85%",
-        end: "top 0%",
+        end: "top 15%",
         scrub: true,
         markers: false,
       },

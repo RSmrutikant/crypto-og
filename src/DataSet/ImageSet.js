@@ -12,6 +12,10 @@ import BannerVid from '../Assets/images/Banner-vid.mp4';
 import SettingsFeature from '../Assets/images/setting.png';
 import featureStar from '../Assets/images/feature-star.png';
 import featureBG from '../Assets/images/feature-bg.jpg';
+import CenterImg from '../Assets/images/center.png';
+import About2 from '../Assets/images/about-2.png';
+import LastOne from '../Assets/images/lastOne.png';
+import LastTwo from '../Assets/images/lastTwo.png';
 
 const Images = {
     Logo,
@@ -26,7 +30,11 @@ const Images = {
     BannerVid,
     SettingsFeature,
     featureStar,
-    featureBG
+    featureBG,
+    CenterImg,
+    About2,
+    LastOne,
+    LastTwo
 };
 
 export default Images;

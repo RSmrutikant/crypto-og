@@ -126,8 +126,8 @@ const Menu = ({ open, setOpen }) => {
             />
           </svg>
         </a>
-        <a href="#curved-text" onClick={() => setOpen(!open)}>
-          Pricing{" "}
+        <a href="#feature" onClick={() => setOpen(!open)}>
+          Features{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
               d="M30 15v13.59L1.71.29.29 1.71 28.59 30H16v2h15a1 1 0 0 0 1-1V15z"
@@ -135,8 +135,8 @@ const Menu = ({ open, setOpen }) => {
             />
           </svg>
         </a>
-        <a href="#feature" onClick={() => setOpen(!open)}>
-          Features{" "}
+        <a href="#insightBlog" onClick={() => setOpen(!open)}>
+          Who we Are{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
               d="M30 15v13.59L1.71.29.29 1.71 28.59 30H16v2h15a1 1 0 0 0 1-1V15z"
@@ -163,7 +163,7 @@ const Menu = ({ open, setOpen }) => {
           </svg>
         </a>
         <a href="#slideshow" onClick={() => setOpen(!open)}>
-          Contact{" "}
+          Explore More{" "}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
             <path
               d="M30 15v13.59L1.71.29.29 1.71 28.59 30H16v2h15a1 1 0 0 0 1-1V15z"
@@ -255,7 +255,7 @@ const Nav = () => {
           <Menu open={open} setOpen={setOpen} />
         </div>
         <div className="progress-container">
-    <div className="progress-bar" id="progressBar" style={{ height: '2px', backgroundColor: '#00d3b5', zIndex: '5' }}></div>
+    <div className="progress-bar" id="progressBar" style={{ height: '2px', backgroundColor: '#ac010a', zIndex: '5' }}></div>
   </div>
       </div>
 
