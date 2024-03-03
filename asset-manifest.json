@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crypto-og/static/css/main.6f754be8.css",
-    "main.js": "/crypto-og/static/js/main.bef6e1c5.js",
+    "main.css": "/crypto-og/static/css/main.e0ce116c.css",
+    "main.js": "/crypto-og/static/js/main.ee1504ca.js",
     "static/js/592.7f410269.chunk.js": "/crypto-og/static/js/592.7f410269.chunk.js",
     "static/media/Banner-vid.mp4": "/crypto-og/static/media/Banner-vid.1b64c49121e9ddcd61ad.mp4",
     "static/media/center.png": "/crypto-og/static/media/center.be01aa62364f479df497.png",
@@ -21,12 +21,12 @@
     "static/media/logo.png": "/crypto-og/static/media/logo.c49219c00f258cf78f9a.png",
     "static/media/feature-star.png": "/crypto-og/static/media/feature-star.7b8e5f64ac57cdcdb783.png",
     "index.html": "/crypto-og/index.html",
-    "main.6f754be8.css.map": "/crypto-og/static/css/main.6f754be8.css.map",
-    "main.bef6e1c5.js.map": "/crypto-og/static/js/main.bef6e1c5.js.map",
+    "main.e0ce116c.css.map": "/crypto-og/static/css/main.e0ce116c.css.map",
+    "main.ee1504ca.js.map": "/crypto-og/static/js/main.ee1504ca.js.map",
     "592.7f410269.chunk.js.map": "/crypto-og/static/js/592.7f410269.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f754be8.css",
-    "static/js/main.bef6e1c5.js"
+    "static/css/main.e0ce116c.css",
+    "static/js/main.ee1504ca.js"
   ]
 }
