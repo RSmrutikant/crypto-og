@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Rubik:wght@400;500;700&display=swap");
 /************ Default Css ************/
 * {
   margin: 0;
@@ -116,7 +117,7 @@ ul {
     align-items: center;
     justify-content: right;
     .content-wrapper {
-      width: 80%;
+      width: 90%;
       padding-right: 10%;
       .section-1-headings {
         font-size: clamp(2.5rem, 6vw, 3.4375rem);
@@ -834,6 +835,7 @@ ul {
   }
 }
 .footer-wrapper {
+  font-family: "Rubik", sans-serif;;
   img {
     max-width: 100%;
     height: auto;
@@ -847,13 +849,24 @@ ul {
     list-style: none;
   }
   .contact-area {
-    border-bottom: 1px solid #ac010a;
+    border-bottom: 1px solid #fff;
+    background-image: url(./Assets/images/footerBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    .container > .row {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0px 3px 20px #0000006c;
+    }
   }
 
   .contact-content p {
     font-size: 15px;
     margin: 30px 0 60px;
     position: relative;
+    color: #000 ;
   }
 
   .contact-content p::after {
@@ -868,7 +881,7 @@ ul {
   }
 
   .contact-content h6 {
-    color: #8b9199;
+    color: #000000;
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -880,7 +893,7 @@ ul {
   }
 
   .contact-social {
-    margin-top: 30px;
+    margin-block: 30px;
   }
 
   .contact-social > ul {
@@ -888,14 +901,14 @@ ul {
   }
 
   .contact-social ul li a {
-    border: 1px solid #8b9199;
-    color: #8b9199;
+    color: #000000;
     display: inline-block;
     height: 40px;
-    margin: 0 10px;
+    margin: 0 20px;
     padding-top: 7px;
     transition: all 0.4s ease 0s;
     width: 40px;
+    font-size: 2rem;
   }
 
   .contact-social ul li a:hover {
@@ -1512,4 +1525,14 @@ ul {
       }
     }
   }
+
+  .footer-wrapper {
+  .contact-area .container > .row {
+    margin-inline: 8px;
+  }
+  .contact-social ul li a {
+    margin: 0 10px;
+  }
+  }
+
 }

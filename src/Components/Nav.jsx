@@ -249,6 +249,7 @@ const Nav = () => {
       >
         <div style={{height: "80px", marginRight: "auto"}}>
           <img src={Images.Logo} alt="brand-logo" style={{height: "100%"}}/>
+          | CRYPTO OG's
         </div>
         <div ref={node} style={{ width: "fit-content", padding: "20px" }}>
           <Burger open={open} setOpen={setOpen} />

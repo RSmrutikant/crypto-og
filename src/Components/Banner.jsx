@@ -18,7 +18,7 @@ export const Banner = () => {
               </h1>
               <div className="line"></div>
               <p className="section-1-text">
-              CryptoOGs Token, inspired by Satoshi Nakamoto and the original Bitcoin pioneers, celebrates the transformative power of decentralized currency. With a capped supply mirroring Bitcoin's scarcity, this meme project honors the visionaries who paved the way for global adoption. Through community governance and innovative NFT integration, CryptoOGs embodies the spirit of progress and inclusivity in the crypto world. By launching limited edition NFTs and supporting blockchain education, CryptoOGs actively contributes to the ongoing evolution of decentralized finance.
+              CryptoOGs Token, inspired by Satoshi Nakamoto and the original Bitcoin pioneers, celebrates the transformative power of decentralized currency. With a capped supply mirroring Bitcoin's scarcity, this meme project honors the visionaries who paved the way for global adoption. Through community governance and innovative NFT integration, CryptoOGs embodies the spirit of progress and inclusivity in the crypto world.
               </p>
               <h3 className="section-1-subhead">
               Join us as we ride the tide of decentralization, shaping the future of finance.
