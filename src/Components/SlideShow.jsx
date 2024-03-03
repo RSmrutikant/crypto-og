@@ -30,7 +30,7 @@ export const SlideShow = () => {
             </div>
             <div className="show-content text-one">
               <h5 style={{ lineHeight: 1.5 }}>
-              Get ready to step into a world where whispers carry more weight than shouts, and every transaction tells a story. Our site is no ordinary corner of the internet – it's a gathering place for those who move in the shadows, yet shape the future of finance.
+              CryptoOGs Token celebrates Bitcoin's founders and the power of decentralized currency. With a capped supply like Bitcoin, it honors crypto pioneers and promotes community governance. By integrating NFTs and supporting blockchain education, CryptoOGs drives decentralized finance forward.
               </h5>
               <a href="#?" className="explore-link">Explore Us <span>⟀</span></a>
             </div>

@@ -12,6 +12,7 @@ import Tokenomics from "./Components/Tokenomics";
 import { SlideShow } from "./Components/SlideShow";
 import Footer from "./Components/Footer";
 import InsightBlog from "./Components/insight";
+import LastCards from "./Components/LastCards";
 
 const App = () => {
   const isDarkTheme = "dark";
@@ -27,6 +28,7 @@ const App = () => {
         <InsightBlog/>
         <RoadMap />
         <Tokenomics />
+        <LastCards/>
         <SlideShow />
         <Footer />
       </>

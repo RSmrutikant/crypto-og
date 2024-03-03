@@ -14,25 +14,19 @@ export const Banner = () => {
           <div className="section-1-left">
             <div className="content-wrapper">
               <h1 className="section-1-headings">
-                Transformation starts with your people.
+              A Tribute to Bitcoin's Founders
               </h1>
               <div className="line"></div>
               <p className="section-1-text">
-                We believe that every individual has a unique story to tell and
-                we are passionate about capturing it. Our team of experienced
-                photographers will We believe in the transformative potential of
-                every individual and team member. Our goal is to create a
-                workplace where individuals can grow professionally We believe
-                that every individual has a unique story to tell and we are
-                passionate about capturing it through our work.
+              CryptoOGs Token, inspired by Satoshi Nakamoto and the original Bitcoin pioneers, celebrates the transformative power of decentralized currency. With a capped supply mirroring Bitcoin's scarcity, this meme project honors the visionaries who paved the way for global adoption. Through community governance and innovative NFT integration, CryptoOGs embodies the spirit of progress and inclusivity in the crypto world. By launching limited edition NFTs and supporting blockchain education, CryptoOGs actively contributes to the ongoing evolution of decentralized finance.
               </p>
               <h3 className="section-1-subhead">
-                Powering confident decisions, for life.
+              Join us as we ride the tide of decentralization, shaping the future of finance.
               </h3>
               <div className="section-1-button">
-                <a class="button-fancy -white" href="#?">
+                <a class="button-fancy -white" href="#about-us">
                   <span class="arrow"></span>
-                  <span class="texts">Explore opportunities</span>
+                  <span class="texts">unlease The Mafia</span>
                 </a>
               </div>
             </div>

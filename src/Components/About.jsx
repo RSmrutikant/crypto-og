@@ -166,11 +166,9 @@ export const AboutUs = () => {
               </div>
             </div>
             <div className="about-content text-one">
-              <h3 >Special  <span style={{color:"#ac010a"}}>Mafia's</span> Skills Test for you</h3>
+              <h3 >Unleash your inner <span style={{color:"#ac010a"}}>Mafia</span> kingpin</h3>
               <h5 style={{ lineHeight: 1.5 }}>
-                "CryptoOGs: The Bitcoin Revolution"
-                In the early 21st century, Satoshi Nakamoto and a squad of
-                crypto OGs birthed Bitcoin. Armed
+              OG-Coin is armed with cryptographic genius and a vision for financial freedom, they crafted the world's first decentralized currency. 
               </h5>
             </div>
           </Col>
@@ -227,9 +225,7 @@ export const AboutUs = () => {
             <div className="about-content text-three">
               <h3>Every <span style={{color:"#ac010a"}}>Mystrey</span> Is A New Adventure!</h3>
               <h5 style={{ lineHeight: 1.5 }}>
-                "CryptoOGs: The Bitcoin Revolution"
-                In the early 21st century, Satoshi Nakamoto and a squad of
-                crypto OGs birthed Bitcoin. 
+              Their rebellion against traditional finance ignited a global movement, capturing the attention of governments, mega-corporations, and the masses.
               </h5>
             </div>
           </Col>
@@ -242,33 +238,12 @@ export const AboutUs = () => {
             style={{ display: "flex", alignItems: "center" }}
           >
             <div className="about-content">
-              <h3>Guess...<br/>Who is the <span className="red-text">Mafia</span>?</h3>
+              <h3>Guess...<br/>What is <span className="red-text">CyrptoOG's</span> Token ?</h3>
               <h5  style={{ lineHeight: 1.5 }}>
-                The Identity Theft Resource Center says
-                that digital wallets rely on proven security measures such as
-                two-factor authentication and PINs that can only be used once.
-                Wallets also use encryption technology to scramble the financial
-                and password information of users.
+              CryptoOGs Token is a tribute to Satoshi Nakamoto and the original gangsters of Bitcoin who paved the way for its unexpected success. With a capped supply of 21 million, mirroring Bitcoin's scarcity, this meme project is more than just a token – it's a celebration of the pioneers who saw the potential of decentralized currency.
+              <br/><br/>
+              Through community-driven governance, charitable initiatives, innovative NFT integration, and a focus on blockchain education, CryptoOGs stands out as a purposeful meme project. The roadmap includes phases such as launching limited edition NFTs, creating a scholarship fund, and even hosting a virtual summit, showcasing the evolution of crypto from its humble beginnings to global adoption by governments, multi-billion-dollar companies, and the masses. The legacy continues with CryptoOGs, as it not only honors the past but actively contributes to the ongoing success of the crypto space.
               </h5>
-              <Row className="d-flex flex-content">
-              <Col>
-              <ul style={{fontSize: "18px"}}>
-                <li>Buy crypto with card</li>
-                <li>
-                  Store your assets on Super Wallet Chain with Super wallet
-                </li>
-                <li>Built-in exchanges</li>
-                <li>Easy Interface</li>
-                <li>Private and secure</li>
-              </ul>
-              </Col>
-              <Col><ul className="right-list">
-                <li>- Guess</li>
-                <li style={{color: "#ac010a", fontWeight: 600}}>- Convince</li>
-                <li>- Defend</li>
-                <li>- Win</li>
-              </ul></Col>
-              </Row>
             </div>
           </Col>
           <Col
