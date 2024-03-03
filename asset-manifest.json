@@ -1,32 +1,23 @@
 {
   "files": {
-    "main.css": "/crypto-og/static/css/main.e0ce116c.css",
-    "main.js": "/crypto-og/static/js/main.ee1504ca.js",
+    "main.css": "/crypto-og/static/css/main.12d42d59.css",
+    "main.js": "/crypto-og/static/js/main.482a0336.js",
     "static/js/592.7f410269.chunk.js": "/crypto-og/static/js/592.7f410269.chunk.js",
     "static/media/Banner-vid.mp4": "/crypto-og/static/media/Banner-vid.1b64c49121e9ddcd61ad.mp4",
-    "static/media/center.png": "/crypto-og/static/media/center.be01aa62364f479df497.png",
     "static/media/about-2.png": "/crypto-og/static/media/about-2.85c7c7ccdf0a21745c88.png",
     "static/media/lastOne.png": "/crypto-og/static/media/lastOne.b10035106acdf02910b7.png",
     "static/media/lastTwo.png": "/crypto-og/static/media/lastTwo.f801a41d41a60300f5a2.png",
-    "static/media/Image-6.png": "/crypto-og/static/media/Image-6.cc926cf7d721132e4cff.png",
-    "static/media/Image-3.png": "/crypto-og/static/media/Image-3.3169648856a10a919efa.png",
     "static/media/Image-4.png": "/crypto-og/static/media/Image-4.98070b38b70433bdca88.png",
-    "static/media/Image-5.png": "/crypto-og/static/media/Image-5.9c26d35836beee55fbe6.png",
-    "static/media/Image-7.png": "/crypto-og/static/media/Image-7.c9a31a614e8238dd4fbb.png",
     "static/media/Image-1.png": "/crypto-og/static/media/Image-1.30db8256fd60898d76a0.png",
-    "static/media/Image-8.png": "/crypto-og/static/media/Image-8.04b0cf98fbb5b647c301.png",
     "static/media/Image-2.png": "/crypto-og/static/media/Image-2.e412d1e7b31675c42ff5.png",
-    "static/media/feature-bg.jpg": "/crypto-og/static/media/feature-bg.bc67f3bc576dc2377f25.jpg",
-    "static/media/setting.png": "/crypto-og/static/media/setting.3f480f8b2f789e29a506.png",
     "static/media/logo.png": "/crypto-og/static/media/logo.c49219c00f258cf78f9a.png",
-    "static/media/feature-star.png": "/crypto-og/static/media/feature-star.7b8e5f64ac57cdcdb783.png",
     "index.html": "/crypto-og/index.html",
-    "main.e0ce116c.css.map": "/crypto-og/static/css/main.e0ce116c.css.map",
-    "main.ee1504ca.js.map": "/crypto-og/static/js/main.ee1504ca.js.map",
+    "main.12d42d59.css.map": "/crypto-og/static/css/main.12d42d59.css.map",
+    "main.482a0336.js.map": "/crypto-og/static/js/main.482a0336.js.map",
     "592.7f410269.chunk.js.map": "/crypto-og/static/js/592.7f410269.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ce116c.css",
-    "static/js/main.ee1504ca.js"
+    "static/css/main.12d42d59.css",
+    "static/js/main.482a0336.js"
   ]
 }
