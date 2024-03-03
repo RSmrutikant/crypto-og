@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const LastCards = () => {
   return (
@@ -19,12 +17,6 @@ const LastCards = () => {
               <p className="date-time">
               CryptoOGs prioritizes community involvement through decentralized governance, allowing token holders to actively participate in decision-making processes.
               </p>
-              {/* <div className="event-btn-wrapper">
-                <p className="tags">WEBINAR | PAYROLL</p>
-                <a href="#?" className="external-arrow">
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </a>
-              </div> */}
             </div>
           </a>
         </Col>
@@ -37,12 +29,6 @@ const LastCards = () => {
               <p className="date-time">
               The project goes beyond profits, allocating funds to a scholarship fund and charitable causes to contribute positively to society.
               </p>
-              {/* <div className="event-btn-wrapper align-self-end">
-                <p className="tags">WEBINAR | PAYROLL</p>
-                <a href="#?" className="external-arrow">
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </a>
-              </div> */}
             </div>
           </a>
         </Col>
@@ -55,12 +41,6 @@ const LastCards = () => {
               <p className="date-time">
               Limited edition NFT drops featuring exclusive OG crypto art, blending the world of digital collectibles with the celebration of blockchain pioneers.
               </p>
-              {/* <div className="event-btn-wrapper">
-                <p className="tags">WEBINAR | PAYROLL</p>
-                <a href="#?" className="external-arrow">
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </a>
-              </div> */}
             </div>
           </a>
         </Col>
@@ -91,12 +71,6 @@ const LastCards = () => {
               <p className="date-time">
               Mirroring Bitcoin's capped supply of 21 million, CryptoOGs pays homage to the original cryptocurrency and reinforces scarcity.
               </p>
-              {/* <div className="event-btn-wrapper">
-                <p className="tags">WEBINAR | PAYROLL</p>
-                <a href="#?" className="external-arrow">
-                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                </a>
-              </div> */}
             </div>
           </a>
         </Col>

@@ -32,7 +32,7 @@ export const SlideShow = () => {
               <h5 style={{ lineHeight: 1.5 }}>
               CryptoOGs Token celebrates Bitcoin's founders and the power of decentralized currency. With a capped supply like Bitcoin, it honors crypto pioneers and promotes community governance. By integrating NFTs and supporting blockchain education, CryptoOGs drives decentralized finance forward.
               </h5>
-              <a href="#?" className="explore-link">Explore Us <span>⟀</span></a>
+              <a href="#" className="explore-link">Explore Us <span>⟀</span></a>
             </div>
           </Col>
           <Col

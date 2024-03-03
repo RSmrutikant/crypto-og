@@ -8,7 +8,7 @@ export const Banner = () => {
         gsap.fromTo('.section-1-heading', { scale: 5, opacity: 0 }, { scale: 1, opacity: 1, duration: 1, ease: "slow(0.7,0.7,0.7,false)" });
       }, []);
   return (
-    <section className="section-1 banner">
+    <section className="section-1 banner" id="banner">
       <Row>
       <Col xs={{ span: 12, order: 2 }} md={12} xl={{ span: 6, order: 1 }}>
           <div className="section-1-left">
@@ -36,7 +36,6 @@ export const Banner = () => {
           <video autoPlay muted playsInline="playsinline" loop={true} style={{width: "-webkit-fill-available"}}>
             <source src={Images.BannerVid} type="video/mp4" />
         </video>
-        {/* <div className="section-1-heading">Crypto OG's</div> */}
         </Col>
       </Row>
     </section>

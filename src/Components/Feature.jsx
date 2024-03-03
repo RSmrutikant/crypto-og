@@ -20,7 +20,6 @@ const Feature = () => {
                 ease: "linear"
               });
             } else {
-              // console.log('Target element is out of view!');
             }
           });
         };

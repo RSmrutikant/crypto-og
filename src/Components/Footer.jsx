@@ -12,8 +12,8 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                     <div className="contact-content text-center">
-                        <a href="#?"><img src={Images.Logo} alt="logo" /></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum </p>
+                        <a href="#"><img src={Images.Logo} alt="logo" /></a>
+                        <p>Empowering CryptoOGs: A Beacon for Decentralization<br/><br/>CryptoOGs Token celebrates Bitcoin's founders and the power of decentralized currency. With a capped supply like Bitcoin, it honors crypto pioneers and promotes community governance. By integrating NFTs and supporting blockchain education, CryptoOGs drives decentralized finance forward.</p>
                         <div className="hr"></div>
                         <h6>1120 Lorem ipsum dolor sit amet, KC 179050, India.</h6>
                         <h6>+91 2345 6789 12<span>|</span>+91 1234 5634 45</h6>
